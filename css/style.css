@@ -4,16 +4,32 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: red;
+    color: blue;
 }
-a {
+.header{
+  display: flex;
+  justify-content:center;
+
+}
+.navbar{
+    display: flex;
+  justify-content:space-between;
+}
+a { 
     text-decoration: none;
 }
 
 .main {
     height: 100%;
+    background-image: url("https://i.redd.it/khc1083rls311.png")
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.rightPane{
+    background-image: url("http://gamemoir.com/wp-content/uploads/2014/11/Super_smash_bros.png");
+    width:1250px;
+    height: 618px;
 }
