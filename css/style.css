@@ -7,6 +7,10 @@ body {
     background-color: red;
     color: blue;
 }
+.main{
+ width:1400px;
+ height:900px;
+}
 .header{
   display: flex;
   justify-content:center;
@@ -14,7 +18,12 @@ body {
 }
 .navbar{
     display: flex;
-  justify-content:space-between;
+    justify-content:flex-start;
+    background-color:black;
+    position:sticky;
+    font-size:30px;
+    top: 0;
+    width: 100%;
 }
 a { 
     text-decoration: none;
@@ -32,4 +41,24 @@ a {
     background-image: url("http://gamemoir.com/wp-content/uploads/2014/11/Super_smash_bros.png");
     width:1250px;
     height: 618px;
+}
+.footer{
+     display: flex;
+    justify-content:flex-start;
+    background-color:black;
+    position:sticky;
+    top: 0;
+    width: 100%;
+}
+.gallery{
+    display: flex;
+    justify-content:flex-start;
+    width:1000px;
+    height:1000px;
+}
+.thumbnail{
+    height: 700px;
+    width:700px;
+    margin:20px;
+    border:solid 10px navy;
 }
